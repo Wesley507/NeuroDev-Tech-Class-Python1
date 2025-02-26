@@ -2,3 +2,7 @@
 # Declare a variable called itemCost and assign it to a float of your choice.
 # Declare a variable called leftoverChange and assign it to be myBudget - itemCost.
 # Print the value of leftoverChange.
+myBudget = 26
+itemCost = 2.7
+leftoverChange = myBudget - itemCost
+print(leftoverChange)

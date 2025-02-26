@@ -5,3 +5,9 @@
     # The product of both variables
     # The quotient of both variables
     # The result of one variable to the power of another
+a = 17
+b = 34
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b)
