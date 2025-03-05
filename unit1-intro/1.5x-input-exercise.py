@@ -8,3 +8,6 @@ F = (C * 9/5) + 32
 
 # Hint: To get user input, use input() and store the result in a variable. Then
 # convert the input from a string to a float using float().
+C = float(input("Input a temperature in Celsius."))
+F = (C * 9/5) + 32
+print("The equivelent of ", C ," Celsius is ", F ," Fahrenheit")

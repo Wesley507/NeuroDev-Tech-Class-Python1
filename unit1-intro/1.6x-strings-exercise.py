@@ -3,3 +3,6 @@
 # Use string formatting to print out a sentence that says
 "My name is [name], and I am [age] years old."
 # Use slicing to print out only the first 3 letters of your name.
+myName = str("Wesley")
+age = int(19)
+print("My name is", myName + ", and I am", age,"years old.")
