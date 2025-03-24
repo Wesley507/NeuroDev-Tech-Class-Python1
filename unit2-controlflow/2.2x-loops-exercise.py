@@ -3,6 +3,7 @@
 # If the number is divisible by 3, print "Fizz" instead of the number.
 # If the number is divisible by 5, print "Buzz" instead of the number.
 # If the number is divisible by both 3 AND 5, print "FizzBuzz".
+numbers = [1, 101]
 
 # The output should look like this:
 

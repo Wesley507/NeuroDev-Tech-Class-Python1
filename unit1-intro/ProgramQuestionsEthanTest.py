@@ -12,5 +12,5 @@
 #print("You are turning", age, "this year.")
 #capital = input("Type a word.")
 #print(capital.upper())
-favorite = input("Type in your favorite word.")
-print(len(favorite))
+#favorite = input("Type in your favorite word.")
+#print(len(favorite))

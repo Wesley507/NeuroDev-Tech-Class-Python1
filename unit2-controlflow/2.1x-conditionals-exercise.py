@@ -5,7 +5,20 @@ Temperature Converter
 Enter 1 to convert Fahrenheit to Celsius
 Enter 2 to convert Celsius to Fahrenheit
 '''
-
+print("Temperature Converter")
+print("Enter 1 to convert Fahrenheit to Celsius")
+print("Enter 2 to convert Celsius to Fahrenheit")
+Choice = int(input("Enter 1 or 2."))
+if Choice == 1:
+    x = float(input("Type a temperature to be changed"))
+    y = (x - 32) * 5/9
+    print(x," is ",y ,"degrees Celsius.")
+elif Choice == 2:
+    y = float(input("Type a temperature to be changed"))
+    x = (y * 9/5) + 32
+    print(y," is ",x ,"degrees Fahrenheit.")
+else:
+    print("Invalid")
 # Store the user's input in a variable. Use if-elif-else conditional
 # statements to perform different tasks based on the user's input.
 
