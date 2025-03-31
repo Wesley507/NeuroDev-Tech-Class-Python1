@@ -13,3 +13,15 @@
 
 # Finally, call the main function. Remember that a function won't
 # execute until it's called!
+
+def calculateArea(length, width):
+    area = (length * width)
+    return area
+def main():
+    length = input("Type a length")
+    width = input("Type a width")
+    x = float(length)
+    y = float(width)
+    results = calculateArea(x, y)
+    print("The area of the rectangle is ",results)
+main()
